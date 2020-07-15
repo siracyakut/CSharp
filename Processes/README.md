@@ -1,6 +1,6 @@
 # Processes
 
-Windows üzerinde çalışan tüm uygulamaları gösterir.
+Windows üzerinde çalışan tüm işlemleri gösterir.
 
 # Görüntü
 
