@@ -55,32 +55,31 @@ namespace Korelasyon_
 
             Console.WriteLine("Korelasyon Katsayısı r = " + r);
 
-            string iliski = r > 0 ? "Pozitif İlişki " : "Negatif İlişki";
+            string str = r > 0 ? "Pozitif İlişki " : "Negatif İlişki";
             r = Math.Abs(r);
             if (r > 0 && r <= 0.25)
             {
-                Console.WriteLine("Çok Zayıf Düzey " + iliski);
-
+                Console.WriteLine("Çok Zayıf Düzey " + str);
             }
             else if (r > 0.25 && r <= 0.49)
             {
-                Console.WriteLine("Zayıf Düzey " + iliski);
+                Console.WriteLine("Zayıf Düzey " + str);
             }
             else if (r > 0.50 && r <= 0.69)
             {
-                Console.WriteLine("Orta Düzey " + iliski);
+                Console.WriteLine("Orta Düzey " + str);
             }
             else if (r > 0.70 && r <= 0.89)
             {
-                Console.WriteLine("Çok Yüksek Düzey " + iliski);
+                Console.WriteLine("Çok Yüksek Düzey " + str);
             }
             else if (r > 0.90 && r <= 1)
             {
-                Console.WriteLine("Çok Yüksek Düzey " + iliski);
+                Console.WriteLine("Çok Yüksek Düzey " + str);
             }
             else
             {
-                Console.WriteLine("Doğrusal bir ilişki yok.");
+                Console.WriteLine("Doğrusal ilişki yok.");
             }
 
             Console.ReadKey();
