@@ -16,10 +16,15 @@ x ve y ikili değerleri arasındaki doğrusal ilişkinin gücünü ölçmektedir
 # Korelasyon Katsayısı
 
 -1 ≤ r ≤ 1
+
 r = 1 'e Mükemmel pozitif doğrusal ilişki
+
 r = -1 ' e Mükemmel negatif doğrusal ilişki
+
 r = 0 Doğrusal bir ilişki yok 
+
 Düzey >>>  İlişki
+
 "0.00 -  0.25"          >>> Zayıf  
 "0.26 -  0.49"          >>> Düşük   
 "0.50 -  0.69"          >>> Orta 
