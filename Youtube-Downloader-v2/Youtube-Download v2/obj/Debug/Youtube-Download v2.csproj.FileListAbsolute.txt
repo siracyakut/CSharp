@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\Youtube-Download v2.exe.config
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\Youtube-Download v2.exe
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\Youtube-Download v2.pdb
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\libvideo.dll
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube_Download_v2.Form1.resources
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube_Download_v2.Properties.Resources.resources
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.csproj.CopyComplete
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.exe
+C:\Users\user\source\repos\Youtube-Download v2\Youtube-Download v2\obj\Debug\Youtube-Download v2.pdb
