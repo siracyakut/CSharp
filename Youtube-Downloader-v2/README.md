@@ -1,6 +1,6 @@
 # YouTube Downloader v2
 
-Gelişmiş youtube indirme aracı. Video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
+Gelişmiş youtube indirme aracı. Link kontrol, video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
 
 # Görüntüler
 
