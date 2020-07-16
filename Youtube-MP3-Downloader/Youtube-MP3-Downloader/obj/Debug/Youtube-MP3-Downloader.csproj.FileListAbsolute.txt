@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\bin\Debug\Youtube-MP3-Downloader.exe.config
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\bin\Debug\Youtube-MP3-Downloader.exe
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\bin\Debug\Youtube-MP3-Downloader.pdb
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube-MP3-Downloader.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube_MP3_Downloader.Form1.resources
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube_MP3_Downloader.Properties.Resources.resources
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube-MP3-Downloader.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube-MP3-Downloader.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube-MP3-Downloader.exe
+C:\Users\user\source\repos\Youtube-MP3-Downloader\Youtube-MP3-Downloader\obj\Debug\Youtube-MP3-Downloader.pdb
