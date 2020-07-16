@@ -70,6 +70,8 @@ namespace WindowsFormsApp2
 
         private void Baslangic(Color renk)
         {
+            colorDialog1.Color = renk;
+
             pictureBox1.BackColor = renk;
             pictureBox2.BackColor = renk;
 
