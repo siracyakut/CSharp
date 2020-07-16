@@ -27,6 +27,7 @@ namespace Advanced_Calculator
             if (tiklanan.Text == "=")
             {
                 if (IsLastOperator()) return;
+                if (first) return;
 
                 DataTable dt = new DataTable();
                 var sonuc = dt.Compute(label1.Text.Replace("x", "*"), "");
