@@ -71,7 +71,7 @@ namespace Password_Saver
 
         private string HesapCek()
         {
-            string hesaplar = "";
+            string hesaplar = string.Empty;
 
             if (dataGridView1.Rows.Count > 0)
             {
