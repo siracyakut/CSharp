@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\10FastFingers\10FastFingers\bin\Debug\10FastFingers.exe.config
+C:\Users\user\source\repos\10FastFingers\10FastFingers\bin\Debug\10FastFingers.exe
+C:\Users\user\source\repos\10FastFingers\10FastFingers\bin\Debug\10FastFingers.pdb
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\10FastFingers.csprojAssemblyReference.cache
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\_10FastFingers.Form1.resources
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\_10FastFingers.Properties.Resources.resources
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\10FastFingers.csproj.GenerateResource.cache
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\10FastFingers.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\10FastFingers.exe
+C:\Users\user\source\repos\10FastFingers\10FastFingers\obj\Debug\10FastFingers.pdb
