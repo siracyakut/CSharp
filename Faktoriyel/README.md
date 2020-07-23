@@ -1,3 +1,3 @@
-# Reaction Winner
+# Faktöriyel Hesaplama
 
 Basit faktöriyel hesaplama yapısı.
