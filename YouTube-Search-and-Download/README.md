@@ -1,13 +1,11 @@
 # YouTube Search and Downloader
 
-Gelişmiş youtube arama yapma ve indirme aracı. PHP API iletişimi ile JSON kullanarak video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
-
-# PHP API
-
-Uygulama PHP API aracılığı ile çalışır. Arama yapabilmesi için uzak bir sunucuya PHP API kurulması gerekir. Sunucu adresini ```C# Source``` kısmında kodlardan değiştirebilirsiniz.
+Gelişmiş youtube arama yapma ve indirme aracı. Günlük kullanım için birebirdir. Uygulamanın kullandığı kütüphaneler ve dll dosyaları exe dosyasının içine gömülmüştür. Taşınabilir şekilde (portable) çalıştırılabilir. Internet durumunu kontrol etme, video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv, webm``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
 
 # Görüntüler
 
-![Görüntü 1](https://i.hizliresim.com/WFkkKQ.png)
-![Görüntü 2](https://i.hizliresim.com/lj5uTD.png)
-![Görüntü 3](https://i.hizliresim.com/T4k2Hz.png)
+![Görüntü 1](https://i.hizliresim.com/micAdo.png)
+![Görüntü 2](https://i.hizliresim.com/zTUamF.png)
+![Görüntü 3](https://i.hizliresim.com/m6JhZ3.png)
+![Görüntü 4](https://i.hizliresim.com/MorKQg.png)
+![Görüntü 5](https://i.hizliresim.com/9lwFWb.png)
