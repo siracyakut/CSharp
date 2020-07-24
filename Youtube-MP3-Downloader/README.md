@@ -1,6 +1,6 @@
 # Güncelleme
 
-Yeni, daha stabil ve daha gelişmiş versiyon: https://github.com/flareoNNN/CSharp/tree/master/Youtube-Downloader-v2
+Yeni, daha stabil ve daha gelişmiş versiyon: https://github.com/flareoNNN/CSharp/tree/master/YouTube-Search-and-Download
 
 # YouTube MP3 Downloader
 Basit bir MP3 indirme uygulaması. PHP API aracılığıyla indirme sağlamaktadır. Link kontrol, random dosya ismi ve download fonksiyonları içerir.
