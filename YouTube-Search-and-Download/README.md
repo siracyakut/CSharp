@@ -1,6 +1,6 @@
 # YouTube Search and Downloader
 
-Gelişmiş youtube arama yapma ve indirme aracı. Video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
+Gelişmiş youtube arama yapma ve indirme aracı. PHP API iletişimi ile JSON kullanarak video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
 
 # PHP API
 
