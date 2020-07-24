@@ -1,3 +1,7 @@
+# Güncelleme
+
+Yeni, daha stabil ve daha gelişmiş versiyon: https://github.com/flareoNNN/CSharp/tree/master/YouTube-Search-and-Download
+
 # YouTube Downloader v2
 
 Gelişmiş youtube indirme aracı. Link kontrol, video arama, thumbnail çekme, video indirme gibi özellikleri destekler. Gelişmiş uzantı desteği bulunur. ```mp3, mp4, avi, flv, mkv``` gibi tüm dosya türlerini destekler ve indirilmesini sağlar.
