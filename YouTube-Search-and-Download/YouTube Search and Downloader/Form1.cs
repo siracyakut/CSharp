@@ -26,7 +26,7 @@ namespace YouTube_Search_and_Downloader
                 Environment.Exit(1);
             }
             pictureBox1.ImageLocation = "https://upload.wikimedia.org/wikipedia/commons/9/9f/Youtube%28amin%29.png";
-            label2.Text = $"Durum: 0%";
+            label2.Text = "Durum: 0%";
             progressBar1.Value = 0;
             progressBar1.Maximum = 100;
         }
@@ -61,7 +61,7 @@ namespace YouTube_Search_and_Downloader
             }
 
             MessageBox.Show("Indirme birazdan başlayacak, lütfen bekleyin...", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            label2.Text = $"Durum: 0%";
+            label2.Text = "Durum: 0%";
             progressBar1.Value = 0;
             progressBar1.Maximum = 100;
             IndirmeYap(linkler[listBox1.SelectedIndex]);
@@ -85,7 +85,7 @@ namespace YouTube_Search_and_Downloader
             if (hesapla >= 100)
             {
                 timer1.Stop();
-                MessageBox.Show("Video indirildi ve masatüsüne kaydedildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Video indirildi ve masaüstüne kaydedildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -116,10 +116,10 @@ namespace YouTube_Search_and_Downloader
             VideoIndir(videoBilgileri);
         }
 
-        private static void VideoIndir(IEnumerable<VideoInfo> videoInfos)
+        private static void VideoIndir(IEnumerable<VideoInfo> videoBilgileri)
         {
-            VideoInfo video = videoInfos
-                .First(info => info.VideoType == VideoType.Mp4 && info.Resolution == 360);
+            VideoInfo video = videoBilgileri
+                .First(bilgi => bilgi.VideoType == VideoType.Mp4 && bilgi.Resolution == 360);
 
             if (video.RequiresDecryption)
             {
@@ -174,6 +174,11 @@ namespace YouTube_Search_and_Downloader
             {
                 return false;
             }
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+            textBox1.Focus();
         }
     }
 }
