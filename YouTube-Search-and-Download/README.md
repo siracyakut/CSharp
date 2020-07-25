@@ -4,8 +4,8 @@ Gelişmiş youtube arama yapma ve indirme aracı. Günlük kullanım için bireb
 
 # Görüntüler
 
-![Görüntü 1](https://i.hizliresim.com/micAdo.png)
-![Görüntü 2](https://i.hizliresim.com/zTUamF.png)
-![Görüntü 3](https://i.hizliresim.com/m6JhZ3.png)
-![Görüntü 4](https://i.hizliresim.com/MorKQg.png)
+![Görüntü 1](https://i.hizliresim.com/micAdo.png)<br>
+![Görüntü 2](https://i.hizliresim.com/zTUamF.png)<br>
+![Görüntü 3](https://i.hizliresim.com/m6JhZ3.png)<br>
+![Görüntü 4](https://i.hizliresim.com/MorKQg.png)<br>
 ![Görüntü 5](https://i.hizliresim.com/9lwFWb.png)
