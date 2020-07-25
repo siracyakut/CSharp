@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\bin\Debug\Çekiliş Uygulaması.exe.config
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\bin\Debug\Çekiliş Uygulaması.exe
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\bin\Debug\Çekiliş Uygulaması.pdb
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş Uygulaması.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş_Uygulaması.Form1.resources
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş_Uygulaması.Properties.Resources.resources
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş Uygulaması.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş Uygulaması.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş Uygulaması.exe
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş Uygulaması.pdb
+C:\Users\user\source\repos\Çekiliş Uygulaması\Çekiliş Uygulaması\obj\Debug\Çekiliş_Uygulaması.Form2.resources
