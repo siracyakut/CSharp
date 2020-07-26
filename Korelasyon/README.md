@@ -1,8 +1,7 @@
 # Korelasyon Nedir ?
 
-Korelasyon, olasılık kuramı ve istatistikte iki rassal değişken arasındaki doğrusal ilişkinin yönünü ve gücünü belirtir. Genel istatistiksel kullanımda korelasyon, bağımsızlık durumundan ne kadar uzaklaşıldığını gösterir.
-
-Korelasyon katsayısı “r” ile gösterilir.
+Korelasyon, olasılık kuramı ve istatistikte iki rassal değişken arasındaki doğrusal ilişkinin yönünü ve gücünü belirtir. Genel istatistiksel kullanımda korelasyon, bağımsızlık durumundan ne kadar uzaklaşıldığını gösterir.<br><br>
+Korelasyon katsayısı “r” ile gösterilir.<br>
 x ve y ikili değerleri arasındaki doğrusal ilişkinin gücünü ölçmektedir.
 
 # Katsayısı Formülü
