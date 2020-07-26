@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\bin\Debug\COVID-19 İstatistikleri.exe.config
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\bin\Debug\COVID-19 İstatistikleri.exe
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\bin\Debug\COVID-19 İstatistikleri.pdb
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID-19 İstatistikleri.csprojAssemblyReference.cache
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID_19_İstatistikleri.Form1.resources
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID_19_İstatistikleri.Properties.Resources.resources
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID-19 İstatistikleri.csproj.GenerateResource.cache
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID-19 İstatistikleri.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID-19 İstatistikleri.exe
+C:\Users\user\source\repos\COVID-19 İstatistikleri\COVID-19 İstatistikleri\obj\Debug\COVID-19 İstatistikleri.pdb
