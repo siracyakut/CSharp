@@ -20,7 +20,7 @@ r = 1 'e Mükemmel pozitif doğrusal ilişki<br>
 r = -1 ' e Mükemmel negatif doğrusal ilişki<br>
 r = 0 Doğrusal bir ilişki yok<br>
 
-Düzey >>>  İlişki<br>
+Düzey                   >>>  İlişki<br>
 "0.00 -  0.25"          >>> Zayıf<br>
 "0.26 -  0.49"          >>> Düşük<br>
 "0.50 -  0.69"          >>> Orta<br>
