@@ -15,13 +15,10 @@ x ve y ikili değerleri arasındaki doğrusal ilişkinin gücünü ölçmektedir
 
 # Korelasyon Katsayısı
 
--1 ≤ r ≤ 1
-
-r = 1 'e Mükemmel pozitif doğrusal ilişki
-
-r = -1 ' e Mükemmel negatif doğrusal ilişki
-
-r = 0 Doğrusal bir ilişki yok 
+-1 ≤ r ≤ 1<br>
+r = 1 'e Mükemmel pozitif doğrusal ilişki<br>
+r = -1 ' e Mükemmel negatif doğrusal ilişki<br>
+r = 0 Doğrusal bir ilişki yok<br>
 
 Düzey >>>  İlişki
 
