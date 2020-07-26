@@ -10,8 +10,10 @@ x ve y ikili değerleri arasındaki doğrusal ilişkinin gücünü ölçmektedir
 ![Katsayısı Formülü](http://keremozer.com/upload/dosya/keremozer_korelasyon_15881174e30c81.PNG)
 
 **r** : korelasyon katsayısı<br>
-**xi**: x i'inci değeri                       **yi**: y i 'inci değeri<br>
-**x-**: x verilerinin ortalaması         **y-**: y verilerinin ortalaması
+**xi**: x i'inci değeri<br>
+**yi**: y i 'inci değeri<br>
+**x-**: x verilerinin ortalaması<br>
+**y-**: y verilerinin ortalaması
 
 # Korelasyon Katsayısı
 
