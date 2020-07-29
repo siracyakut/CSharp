@@ -187,6 +187,12 @@ namespace YouTube_Search_and_Downloader
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
+            string yol = $@"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}\{dosya}.mp3";
+            if (File.Exists(yol))
+            {
+                File.Delete(yol);
+            }
+
             var downloader = new AudioDownloader(dLink, dosya, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), @"C:\");
             downloader.ProgressDownload += downloader_ProgressDownload;
             downloader.FinishedDownload += downloader_FinishedDownload;
