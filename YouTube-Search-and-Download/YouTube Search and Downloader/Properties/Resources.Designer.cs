@@ -83,6 +83,26 @@ namespace YouTube_Search_and_Downloader.Properties {
         /// <summary>
         ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static byte[] WrapYoutubeDl {
+            get {
+                object obj = ResourceManager.GetObject("WrapYoutubeDl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static byte[] youtube_dl {
+            get {
+                object obj = ResourceManager.GetObject("youtube_dl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static byte[] YouTubeSearch {
             get {
                 object obj = ResourceManager.GetObject("YouTubeSearch", resourceCulture);

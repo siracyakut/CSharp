@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using System.IO;
 using YouTubeSearch;
+using WrapYoutubeDl;
 
 namespace YouTube_Search_and_Downloader
 {
     public partial class Form1 : Form
     {
-        string[] linkler = new string[60];
-        public static int dosyaBoyut = 0;
-        public static string dosyaIsim = "";
+        public string[] linkler = new string[60];
+        public string dosya = "";
+        public string dLink = "";
 
         public Form1()
         {
             InitializeComponent();
+            Control.CheckForIllegalCrossThreadCalls = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,6 +32,11 @@ namespace YouTube_Search_and_Downloader
             label2.Text = "Durum: 0%";
             progressBar1.Value = 0;
             progressBar1.Maximum = 100;
+
+            using (FileStream MsiFile = new FileStream(@"C:\youtube-dl.exe", FileMode.Create))
+            {
+                MsiFile.Write(Properties.Resources.youtube_dl, 0, Properties.Resources.youtube_dl.Length);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -64,8 +72,8 @@ namespace YouTube_Search_and_Downloader
             label2.Text = "Durum: 0%";
             progressBar1.Value = 0;
             progressBar1.Maximum = 100;
+
             IndirmeYap(linkler[listBox1.SelectedIndex]);
-            timer1.Start();
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
@@ -76,20 +84,7 @@ namespace YouTube_Search_and_Downloader
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            long boyut = new System.IO.FileInfo(dosyaIsim).Length;
-            long hesapla = ((boyut * 100) / dosyaBoyut);
-            progressBar1.Value = Convert.ToInt32(hesapla);
-            label2.Text = $"Durum: {hesapla}%";
-            if (hesapla >= 100)
-            {
-                timer1.Stop();
-                MessageBox.Show("Video indirildi ve masaüstüne kaydedildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
-        static async void AramaYap(Form1 frm)
+        private static async void AramaYap(Form1 frm)
         {
             int slot = 0;
             frm.listBox1.Items.Clear();
@@ -107,26 +102,22 @@ namespace YouTube_Search_and_Downloader
             }
         }
 
-        static void IndirmeYap(string link)
+        private void IndirmeYap(string link)
         {
             Log.setMode(false);
 
             IEnumerable<VideoInfo> videoBilgileri = DownloadUrlResolver.GetDownloadUrls(link, false);
 
             VideoIndir(videoBilgileri);
+            Form1 form = (Form1)Application.OpenForms["Form1"];
+            form.dLink = link;
         }
 
-        private static void VideoIndir(IEnumerable<VideoInfo> videoBilgileri)
+        private void VideoIndir(IEnumerable<VideoInfo> videoBilgileri)
         {
             VideoInfo video = videoBilgileri
                 .First(bilgi => bilgi.VideoType == VideoType.Mp4 && bilgi.Resolution == 360);
 
-            if (video.RequiresDecryption)
-            {
-                DownloadUrlResolver.DecryptDownloadUrl(video);
-            }
-
-            dosyaBoyut = video.FileSize;
             string ism = video.Title;
             ism = Helper.makeFilenameValid(ism).Replace("/", "")
                     .Replace(".", "")
@@ -137,9 +128,10 @@ namespace YouTube_Search_and_Downloader
                     .Replace("\\", "")
                     .Replace("*", "")
                     .Replace("!", "");
-            dosyaIsim = $@"{Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory)}\{ism}{video.VideoExtension}";
-            VideoDownloader dl = new VideoDownloader();
-            dl.DownloadFile(video.DownloadUrl, video.Title, true, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), video.VideoExtension);
+
+            Form1 form = (Form1)Application.OpenForms["Form1"];
+            form.dosya = ism;
+            form.backgroundWorker1.RunWorkerAsync();
         }
 
         private string IsimDuzenle(string isim)
@@ -162,7 +154,7 @@ namespace YouTube_Search_and_Downloader
             return satir;
         }
 
-        public static bool InternetVarMi()
+        private bool InternetVarMi()
         {
             try
             {
@@ -179,6 +171,34 @@ namespace YouTube_Search_and_Downloader
         private void Form1_Shown(object sender, EventArgs e)
         {
             textBox1.Focus();
+        }
+
+        private void downloader_FinishedDownload(object sender, DownloadEventArgs e)
+        {
+            MessageBox.Show("Video indirildi ve masaüstüne kaydedildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void downloader_ProgressDownload(object sender, ProgressEventArgs e)
+        {
+            Form1 form = (Form1)Application.OpenForms["Form1"];
+            form.progressBar1.Value = Convert.ToInt32(e.Percentage);
+            form.label2.Text = $"Durum: {e.Percentage}%";
+        }
+
+        private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+            var downloader = new AudioDownloader(dLink, dosya, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), @"C:\");
+            downloader.ProgressDownload += downloader_ProgressDownload;
+            downloader.FinishedDownload += downloader_FinishedDownload;
+            downloader.Download();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (File.Exists(@"C:\youtube-dl.exe"))
+            {
+                File.Delete(@"C:\youtube-dl.exe");
+            }
         }
     }
 }
