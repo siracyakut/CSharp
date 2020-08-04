@@ -124,13 +124,7 @@
   <data name="taglib_sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\taglib-sharp.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="WrapYoutubeDl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WrapYoutubeDl.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="YouTubeSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YouTubeSearch.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="youtube_dl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\youtube-dl.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
