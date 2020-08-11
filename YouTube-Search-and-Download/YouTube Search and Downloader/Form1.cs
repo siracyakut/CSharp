@@ -9,7 +9,7 @@ namespace YouTube_Search_and_Downloader
 {
     public partial class Form1 : Form
     {
-        public string[] linkler = new string[60];
+        List<string> linkler = new List<string>();
         public string dosya = "";
         public long boyut = 0;
 
@@ -87,6 +87,7 @@ namespace YouTube_Search_and_Downloader
         {
             int slot = 0;
             frm.listBox1.Items.Clear();
+            frm.linkler.Clear();
             Log.setMode(false);
 
             VideoSearch videolar = new VideoSearch();
@@ -96,7 +97,7 @@ namespace YouTube_Search_and_Downloader
             {
                 string ekle = frm.IsimDuzenle(veri.getTitle());
                 frm.listBox1.Items.Add(ekle);
-                frm.linkler[slot] = veri.getUrl();
+                frm.linkler.Add(veri.getUrl());
                 slot++;
             }
         }
