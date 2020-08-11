@@ -85,7 +85,6 @@ namespace YouTube_Search_and_Downloader
 
         private static async void AramaYap(Form1 frm)
         {
-            int slot = 0;
             frm.listBox1.Items.Clear();
             frm.linkler.Clear();
             Log.setMode(false);
@@ -98,7 +97,6 @@ namespace YouTube_Search_and_Downloader
                 string ekle = frm.IsimDuzenle(veri.getTitle());
                 frm.listBox1.Items.Add(ekle);
                 frm.linkler.Add(veri.getUrl());
-                slot++;
             }
         }
 
@@ -123,14 +121,14 @@ namespace YouTube_Search_and_Downloader
 
             string ism = video.Title;
             ism = Helper.makeFilenameValid(ism).Replace("/", "")
-                    .Replace(".", "")
-                    .Replace("|", "")
-                    .Replace("?", "")
-                    .Replace("<", "")
-                    .Replace(">", "")
-                    .Replace("\\", "")
-                    .Replace("*", "")
-                    .Replace("!", "");
+                                                .Replace(".", "")
+                                                .Replace("|", "")
+                                                .Replace("?", "")
+                                                .Replace("<", "")
+                                                .Replace(">", "")
+                                                .Replace("\\", "")
+                                                .Replace("*", "")
+                                                .Replace("!", "");
 
             VideoDownloader dl = new VideoDownloader();
             dl.DownloadFile(video.DownloadUrl, ism, true, Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), video.VideoExtension);
@@ -144,18 +142,18 @@ namespace YouTube_Search_and_Downloader
         {
             string satir = isim;
 
-            satir = satir.Replace("Ä±", "ı");
-            satir = satir.Replace("Ä°", "İ");
-            satir = satir.Replace("Ã‡", "Ç");
-            satir = satir.Replace("Ã§", "ç");
-            satir = satir.Replace("Ã¼", "ü");
-            satir = satir.Replace("Ãœ", "Ü");
-            satir = satir.Replace("Ã¶", "ö");
-            satir = satir.Replace("Ã–", "Ö");
-            satir = satir.Replace("ÅŸ", "ş");
-            satir = satir.Replace("Å", "Ş");
-            satir = satir.Replace("ÄŸ", "ğ");
-            satir = satir.Replace("Ä", "Ğ");
+            satir = satir.Replace("Ä±", "ı")
+                        .Replace("Ä°", "İ")
+                        .Replace("Ã‡", "Ç")
+                        .Replace("Ã§", "ç")
+                        .Replace("Ã¼", "ü")
+                        .Replace("Ãœ", "Ü")
+                        .Replace("Ã¶", "ö")
+                        .Replace("Ã–", "Ö")
+                        .Replace("ÅŸ", "ş")
+                        .Replace("Å", "Ş")
+                        .Replace("ÄŸ", "ğ")
+                        .Replace("Ä", "Ğ");
 
             return satir;
         }
