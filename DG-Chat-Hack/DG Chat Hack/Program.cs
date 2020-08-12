@@ -86,6 +86,7 @@ namespace DG_Chat_Hack
 
             if (cozumle.Contains("] {A2FF00}Hız Testi » {FFFFFF}Verdiğim"))
             {
+                t.Stop();
                 cozumle = cozumle.Remove(0, 11);
                 cozumle = cozumle.Replace("{A2FF00}Hız Testi » {FFFFFF}Verdiğim {A2FF00}", "")
                         .Replace(" {FFFFFF}harflerini ilk yazan {A2FF00}", "")
@@ -98,9 +99,11 @@ namespace DG_Chat_Hack
 
                 total_tests++;
                 Console.WriteLine($"Test {total_tests} successfully winned, reaction answer: {cozumle}");
+                t.Start();
             }
             else if (cozumle.Contains("] {E5FF00}Matematik » {FFFFFF}Verdiğim"))
             {
+                t.Stop();
                 cozumle = cozumle.Remove(0, 11);
                 cozumle = cozumle.Replace("{E5FF00}Matematik » {FFFFFF}Verdiğim {E5FF00}", "");
                 int bul = cozumle.IndexOf("{");
@@ -115,9 +118,11 @@ namespace DG_Chat_Hack
 
                 total_tests++;
                 Console.WriteLine($"Test {total_tests} successfully winned, math answer: {sonuc}");
+                t.Start();
             }
             else if (cozumle.Contains("] Dark Gaming » {FFFFFF}Matematik cevabı"))
             {
+                t.Stop();
                 cozumle = cozumle.Remove(0, 11);
                 cozumle = cozumle.Replace("Dark Gaming » {FFFFFF}Matematik cevabı >> ", "");
 
@@ -127,6 +132,7 @@ namespace DG_Chat_Hack
 
                 total_tests++;
                 Console.WriteLine($"Test {total_tests} successfully winned, math answer: {cozumle}");
+                t.Start();
             }
             else if (cozumle.Contains("] Dark Gaming » {FFFFFF}Lotto cevabı >>"))
             {
@@ -153,7 +159,7 @@ namespace DG_Chat_Hack
                 sim.Keyboard.KeyPress(VirtualKeyCode.DOWN);
 
                 total_tests++;
-                Console.WriteLine($"Test {total_tests} successfully winned, lotto answer: {cevap - 1}");
+                Console.WriteLine($"Test {total_tests} successfully winned, lotto answer: {cevap - 2}");
 
                 t.Start();
             }
