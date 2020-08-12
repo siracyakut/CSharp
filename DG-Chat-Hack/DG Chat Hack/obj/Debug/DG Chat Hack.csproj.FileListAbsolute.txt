@@ -1,0 +1,12 @@
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\bin\Debug\DG Chat Hack.exe.config
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\bin\Debug\DG Chat Hack.exe
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\bin\Debug\DG Chat Hack.pdb
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.csprojAssemblyReference.cache
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.exe
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.pdb
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG_Chat_Hack.Properties.Resources.resources
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.csproj.GenerateResource.cache
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\bin\Debug\WindowsInput.dll
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\bin\Debug\WindowsInput.xml
+C:\Users\user\source\repos\DG Chat Hack\DG Chat Hack\obj\Debug\DG Chat Hack.csproj.CopyComplete
